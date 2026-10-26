@@ -10,6 +10,8 @@ interface Book {
 // Аналог базы данных
 const dataBase: Book[] = [];
 
+// Тест Git
+const test: string = "Тут ничего нет";
 // Внешний API (Чтобы придерживаться SOLID у BookCRUD)
 function correctingID(): void {
     const idStorage: number[] = [];
